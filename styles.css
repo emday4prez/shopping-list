@@ -1,0 +1,39 @@
+*{
+ box-sizing: border-box;
+}
+html {
+ font-family: Helvetica, Arial, sans-serif;
+ margin:0;
+ padding:0;
+}
+
+body{
+ 
+ display: flex;
+ height: 100vh;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ background: linear-gradient(orange, peru);
+ color: midnightblue
+
+}
+
+.item{
+ text-align: left;
+ margin-bottom: .5rem;
+ font-size: 1.6rem;
+}
+.item:hover{
+ cursor: pointer;
+ text-decoration: line-through;
+ color: rgb(72, 72, 72);
+}
+input{
+ outline: none;
+ border: none;
+ height: 30px;
+ border-radius: 5px;
+ margin-top: 1rem;
+}
